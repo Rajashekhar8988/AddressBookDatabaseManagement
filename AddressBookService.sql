@@ -17,3 +17,6 @@ update Address_Book set Last_Name='Janga' where First_Name='Rajashekhar';
  
 -- Retrieve Person belonging to a City or State from the Address Book
  select * from Address_Book where City='Hyderabad';
+ 
+ -- Ability to understand the size of address book by City and State
+select count(City) from Address_Book;
