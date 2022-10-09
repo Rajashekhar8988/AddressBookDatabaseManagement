@@ -20,3 +20,6 @@ update Address_Book set Last_Name='Janga' where First_Name='Rajashekhar';
  
  -- Ability to understand the size of address book by City and State
 select count(City) from Address_Book;
+
+-- Ability to retrieve entries sorted alphabetically by Person’s name for a given city
+select * from Address_Book order by city;
