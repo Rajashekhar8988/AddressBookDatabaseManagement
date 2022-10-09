@@ -8,3 +8,6 @@ create table Address_Book(First_Name  varchar(150),Last_Name varchar(150),Addres
 
 -- Ability to insert new Contacts to Address Book
 insert into Address_Book(First_Name,Last_Name,Address,City,PhoneNumber,Zipcode,Email) values ('Rajashekhar','Reddy','Nagaram','Hyderabad','9876543214','500064','rajashekharraj3@gmail.com'),('Nani','Reddy','Ecil','Hyderabad','9876498741','783743','nanireddy2@gmail.com');
+
+-- edit existing contact person using their name
+update Address_Book set Last_Name='Janga' where First_Name='Rajashekhar';
