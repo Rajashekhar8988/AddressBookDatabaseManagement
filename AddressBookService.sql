@@ -11,3 +11,6 @@ insert into Address_Book(First_Name,Last_Name,Address,City,PhoneNumber,Zipcode,E
 
 -- edit existing contact person using their name
 update Address_Book set Last_Name='Janga' where First_Name='Rajashekhar';
+
+-- delete existing person using person's name
+ delete from Address_Book where First_Name='Nani';
