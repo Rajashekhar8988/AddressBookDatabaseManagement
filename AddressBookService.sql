@@ -14,3 +14,6 @@ update Address_Book set Last_Name='Janga' where First_Name='Rajashekhar';
 
 -- delete existing person using person's name
  delete from Address_Book where First_Name='Nani';
+ 
+-- Retrieve Person belonging to a City or State from the Address Book
+ select * from Address_Book where City='Hyderabad';
